@@ -1,0 +1,270 @@
+.tab-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 20px;
+}
+
+.tab-link {
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-link:hover {
+  background-color: #e9ecef;
+  color: #0056b3;
+}
+
+.active-tab {
+  border-bottom: 2px solid #007bff;
+  color: #0056b3;
+}
+
+
+
+/* Container for the Home content */
+.home-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header style */
+.home-container h1 {
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Mission statement style */
+.home-container p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Facilities list style */
+.facilities-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.facilities-list li {
+  font-size: 1.1em;
+  color: #555;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Facility items icon (optional) */
+.facilities-list li::before {
+  content: '✔️';  /* Checkmark icon */
+  margin-right: 10px;
+  color: #28a745;
+}
+
+/* Container for the About Us content */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header style */
+.about-container h1 {
+  font-size: 2em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Paragraph style for intro and vision */
+.about-container p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.director-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center; /* Center-aligns text */
+}
+
+/* Director's image style */
+.director-profile img {
+  width: 150px; /* Set width */
+  height: 150px; /* Set height */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better appearance */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+/* Director's title and description */
+.director-profile h2 {
+  font-size: 1.5em; /* Adjust size as needed */
+  color: #007bff; /* Primary color for the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.director-profile p {
+  font-size: 1.1em; /* Adjust size for readability */
+  color: #555; /* Subdued color for the description */
+  margin-top: 0; /* Remove default margin-top */
+  margin-bottom: 0; /* Remove default margin-bottom */
+}
+
+
+
+/* Container for the Properties content */
+.properties-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Property item card style */
+.property-item {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+/* Property title style */
+.property-item h2 {
+  font-size: 1.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Property description style */
+.property-item p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+.property-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+/* Price style */
+.property-price {
+  font-size: 1.3em;
+  color: #28a745;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+/* Optional: Image styling */
+.property-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+/* Container for the Contact Us content */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact details section */
+.contact-details {
+  margin-bottom: 30px;
+}
+
+/* Contact section title */
+.contact-details h2 {
+  font-size: 1.8em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Contact information style */
+.contact-info {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* USA contact section */
+.usa-contact {
+  margin-top: 30px;
+}
+
+/* Form container */
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form field styles */
+.contact-form label {
+  display: block;
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
